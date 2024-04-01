@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epic Prank Alert!</title>
+    <style>
+       
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            text-align: center;
+        }
+        h1 {
+            color: #ff4500;
+        }
+        img {
+            width: 200px;
+            height: 200px;
+        }
+        .message {
+            margin-bottom: 20px;
+        }
+        .terms {
+            margin-top: 20px;
+        }
+        .footer {
+            margin-top: 50px;
+            color: #666;
+        }
+        #noButton {
+    position: absolute;
+}
+button{
+    color: black;
+    background-color: aqua;
+    padding: 5%;
+}
+.terms{
+    border: solid #CCCCCC 2px;
+    background-color: aqua;
+}
+    </style>
+</head>
+<body>
+    <h1>Epic Prank Alert!</h1>
+    
+<div id="player"></div>
+<div id="message" style="display: none;">Results rale bro anduke em Kanapadatledu..</div>
+
+
+    <img src="https://media.tenor.com/UJc8Unkbe2sAAAAM/i-cant-see-brahmi.gif" 
+    <img src="https://media1.tenor.com/m/llR-NoDnbrEAAAAC/chadhuvu-kondi.gif" alt="Funny GIF">
+
+    <h1>Result rale bro anduke em kanapadatley</h1>
+    <h2>Aina a links padithe a links click cheste inka darunam ga vuntadi make sure that don't click on unwanted links anymore</h2>
+    <img src="https://media1.tenor.com/m/llR-NoDnbrEAAAAC/chadhuvu-kondi.gif" alt="funy glf">
+    
+
+
+
+    <h1>Have you been fooled today?</h1>
+    <button id="yesButton" onclick="showResult('yes')">Yes</button>
+    <button id="noButton" onclick="moveNoButton()">No</button>
+    <p id="result"></p>
+
+
+
+
+
+
+    <div class="message">
+        <p>Congratulations! You've been pranked!</p>
+        <p>Focus on Studies Not on Results.</p>
+    </div>
+    <div class="terms">
+        <p>Terms & Conditions:</p>
+        <p>Just for the sake of fun and entertainment, with no intention to cause any harm/hurt to anyone.</p>
+        <p style="color: #ff4500;">Developed by Sk, Happy coding</p>
+    </div>
+    <div class="footer">
+        <p>April Fool's! Don't worry, you're not actually obligated to hug a pillow every day.</p>
+    </div>
+
+    <script src="https://www.youtube.com/iframe_api"></script>
+   
+    <script>
+        function showResult(answer) {
+            var resultElement = document.getElementById('result');
+            if (answer === 'yes') {
+                resultElement.textContent = "Yes, you've been fooled!";
+            } else if (answer === 'no') {
+                resultElement.textContent = "No, you're not fooling me. Try again!";
+            }
+        }
+
+        function moveNoButton() {
+            var noButton = document.getElementById('noButton');
+            var randomX = Math.floor(Math.random() * window.innerWidth);
+            var randomY = Math.floor(Math.random() * window.innerHeight);
+            noButton.style.left = randomX + 'px';
+            noButton.style.top = randomY + 'px';
+        }
+    </script>
+
+</body>
+</html>

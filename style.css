@@ -26,6 +26,36 @@ word-spacing: 0px;
 
 #dropdownContent {
     display: none; /* Hide content by default */
-background-color: ;
 
+}
+#dropdownContent,ul,li{
+    
+        font-size: 15px;
+        font-family: Times New Roman;
+
+}
+#dropdownBtn{
+    padding-left: 10% ;
+    padding-right: 10%;
+    display: inline-block;
+    border: solid rgb(0, 0, 0) 1px;
+    text-align: center;
+    font-size: xx-small;
+    width: 100%;
+    background-color: #d0e4fe;
+    border: solid 1px #c3c3c3;
+    color:black;
+}
+
+table {
+    background-color: #d0e4fe;
+    border-collapse: collapse;
+    width: 90%;
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    unicode-bidi: isolate;
+    border-spacing: 2px;
+    border-color: gray;
 }
