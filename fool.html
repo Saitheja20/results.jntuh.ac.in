@@ -102,6 +102,27 @@ button{
             noButton.style.top = randomY + 'px';
         }
     </script>
+<script>
+        // Function to increment and display page views
+        function incrementPageViews() {
+            // Check if page views data exists in local storage
+            if (!localStorage.getItem('pageViews')) {
+                // If not, initialize page views to 1
+                localStorage.setItem('pageViews', '1');
+            } else {
+                // If exists, increment page views by 1
+                localStorage.setItem('pageViews', parseInt(localStorage.getItem('pageViews')) + 1);
+            }
 
+            // Display the current page views
+            document.getElementById('pageViewsCount').textContent = localStorage.getItem('pageViews');
+        }
+
+        // Call the function to increment and display page views
+        incrementPageViews();
+    </script>
+
+    <!-- Display the current page views -->
+    <p>This page has been viewed <span id="pageViewsCount"></span> times.</p>
 </body>
 </html>
