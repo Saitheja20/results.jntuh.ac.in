@@ -1,0 +1,31 @@
+#leftbar ,h2{
+    /* color: green;
+    text-align: left;
+    font-family: Lucida Typewriter; */
+    color :rgb(0, 128, 0);
+display: block;
+font-family:"Lucida Typewriter";
+font-size: 15.912px;
+font-weight: 700;
+/* height: 62.9625px; */
+line-height: 18.2988px;
+margin-block-end: 15.912px;
+margin-block-start: 15.912px;
+margin-bottom: 15.912px;
+margin-inline-end: 0px;
+margin-inline-start: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 15.912px;
+text-align: left;
+unicode-bidi: isolate;
+/* width: 700.8px; */
+word-spacing: 0px;
+    
+}
+
+#dropdownContent {
+    display: none; /* Hide content by default */
+background-color: ;
+
+}
